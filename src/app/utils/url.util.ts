@@ -1,5 +1,5 @@
 export class UrlUtil {
-  public static getJsonFromUrlParams(url: string): any {
+  public static getJsonFromUrlParams(url: string): Record<string, any> {
     if (!url) {
       url = location.href;
     }
