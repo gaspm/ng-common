@@ -1,4 +1,4 @@
-import {DynamicDialogConfig} from 'primeng/primeng';
+import {DynamicDialogConfig} from 'primeng/dynamicdialog';
 
 export class DialogConfigUtil {
   public static getBasicXsConfig(): DynamicDialogConfig {
