@@ -3,8 +3,9 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
 import {DisableClickDirective} from './directives/disable-click.directive';
+import {DisableNewlineDirective} from './directives/disable-newline.directive';
 
-const directives = [DisableClickDirective];
+const directives = [DisableClickDirective, DisableNewlineDirective];
 
 @NgModule({
   declarations: [AppComponent, directives],

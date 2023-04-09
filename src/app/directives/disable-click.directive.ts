@@ -1,5 +1,12 @@
 import {Directive, HostListener} from '@angular/core';
 
+/**
+ * Disable click directive
+ * Do prevent default on click event
+ *
+ * @example
+ * // <a href="#" appDisableClick>Disabled Anchor</a>
+ */
 @Directive({
   selector: '[appDisableClick]',
 })
