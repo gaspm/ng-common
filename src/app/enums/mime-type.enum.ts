@@ -175,4 +175,46 @@ export const enum MimeType {
 
   // Waveform Audio Format
   WAV = 'audio/wav',
+
+  // WEBM audio
+  WEBA = 'audio/webm',
+
+  // WEBM video
+  WEBM = 'video/webm',
+
+  // WEBP image
+  WEBP = 'image/webp',
+
+  // Web Open Font Format (WOFF)
+  WOFF = 'font/woff',
+
+  // Web Open Font Format (WOFF)
+  WOFF2 = 'font/woff2',
+
+  // XHTML
+  XHTML = 'application/xhtml+xml',
+
+  // Microsoft Excel
+  XLS = 'application/vnd.ms-excel',
+
+  // Microsoft Excel (OpenXML)
+  XLSX = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+
+  // XML
+  XML = 'application/xml',
+
+  // XUL
+  XUL = 'application/vnd.mozilla.xul+xml',
+
+  // ZIP archive
+  ZIP = 'application/zip',
+
+  // 3GPP audio/video container
+  THREEGP = 'video/3gpp; audio/3gpp',
+
+  // 3GPP2 audio/video container
+  THREEG2 = 'video/3gpp2; audio/3gpp2',
+
+  // 7-zip archive
+  SEVENZ = 'application/x-7z-compressed',
 }
